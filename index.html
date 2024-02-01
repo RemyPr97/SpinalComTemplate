@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disposition des Conteneurs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="/assets/Capture d'écran 2024-02-01 101930.png" alt="Menu déroulant" class="fake-dropdown">
+      <img src="/assets/unnamed.jpg" alt="Logo" class="logo" />
+      <button class="add-profile-btn">
+        <span class="gear-icon">⚙️</span> AJOUTER UN PROFIL D'APPLI..
+      </button>
+    </nav>
+
+    <div class="container">
+      <div class="left-container">
+        <h2>NOM DE LA LISTE</h2>
+        <div class="search-bar">
+          <input type="search" placeholder="rechercher" />
+          <button class="search-button">🔍</button>
+        </div>
+        <div class="list">
+          <div class="list-item" id="api">
+            <input
+              type="checkbox"
+              id="contextOntologies"
+              class="list-checkbox"
+            />
+            <div class="api-path">context/ontologies</div>
+            <div class="actions">
+              <button class="dropdown-button">▼</button>
+            </div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="list-item">
+            <input
+              type="checkbox"
+              id="contextOntologies"
+              class="list-checkbox"
+            />
+            <div class="api-path2">/api/v1/context/list/test/Update2</div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="list-item">
+            <input
+              type="checkbox"
+              id="contextOntologies"
+              class="list-checkbox"
+            />
+            <div class="api-path2">/api/v1/context/list/test/Update2</div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="list-item">
+            <input
+              type="checkbox"
+              id="contextOntologies"
+              class="list-checkbox"
+            />
+            <div class="api-path2">/api/v1/context/list/test/Update2</div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="list-item" id="api">
+            <div class="api-path">nodes</div>
+            <div class="actions">
+              <button class="dropdown-button">▲</button>
+            </div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="list-item" id="api">
+            <div class="api-path">nodes attribut categories</div>
+            <div class="actions">
+              <button class="dropdown-button">▲</button>
+            </div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="list-item" id="api">
+            <div class="api-path">nodes attribut group</div>
+            <div class="actions">
+              <button class="dropdown-button">▲</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <h2>NOM DE LA LISTE</h2>
+        <div class="search-bar">
+          <input type="search" placeholder="rechercher" />
+          <button class="search-button">🔍</button>
+        </div>
+        <div class="list">
+          <div class="list-item highlighted">
+            <input type="checkbox" id="invalid" />
+            <label for="item-name">context</label>
+            <div class="actions">
+              <button class="dropdown-button">▼</button>
+            </div>
+          </div>
+          <div class="list-item">
+            <input type="checkbox" id="invalid" />
+            <label for="invalid">invalid</label>
+          </div>
+          <div class="list-item">
+            <input type="checkbox" id="apps" />
+            <label for="apps">apps</label>
+          </div>
+          <div class="list-item">
+            <input type="checkbox" id="config" />
+            <label for="config">.config</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
